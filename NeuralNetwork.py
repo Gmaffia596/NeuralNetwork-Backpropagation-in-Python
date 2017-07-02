@@ -82,4 +82,5 @@ target_dataset = np.matrix([
 train_network(input_dataset, target_dataset, epochs, learning_rate)
 
 # Test network
-print(execute_forward(np.array([0, 0]))) # Expected output is [ .5 .5 ] - because it is a mid of [ 0 1 ] and [ 1 0 ]
+print(execute_forward(np.array([0, 0])))
+# Expected output is [ .5 .5 ] - because it is a mid of [ 0 1 ] and [ 1 0 ]
